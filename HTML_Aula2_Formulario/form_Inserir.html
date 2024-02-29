@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir</title>
+</head>
+<body>
+    <form action="inserir.html" method="post">
+        <table cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Nome</th>
+                <td><input type="text" name="nome" size="40" maxlength="100"></td>
+            </tr>
+            <tr>
+                <th>Cidade</th>
+                <td><input type="text" name="cidade" size="20" maxlength="50"></td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td><input type="text" name="estado" size="2" value="RS" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td><input type="text" name="pais" size="20" value="Brasil" disabled="true"></td>
+            </tr>
+        </table>
+        <br/>
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Limpar campos"><br/>
+        <p>Endereço:</p><br/>
+        <form action="inserir.html" method="post">
+            <textarea name="endereco" cols="40" rows="4">
+                Seu nome aqui.
+                Rua ZZZZZ, no 1234
+                Cidade - Estado, CEP
+            </textarea>
+        </form>
+    </form>
+</body>
+</html>

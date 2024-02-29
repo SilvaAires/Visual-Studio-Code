@@ -1,0 +1,53 @@
+#d, #h1, #p, #res{
+    margin: 0 auto;
+    border: solid; 
+    position: relative;
+    width: 940px;
+}
+
+#im1, #im2, #im3, #im4{
+    text-align: right;
+    width: 40px;
+    height: 20px;
+}
+
+#d{
+    background-color: salmon;
+}
+
+#p{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    border: solid;
+    height: 40px;
+    width: 350px;
+}
+
+#res{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    border: solid;
+    height: 40px;
+    width: 350px;
+    margin-block-end: 20px;
+}
+
+#in{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#bb{
+    text-align: center;
+}
+
+#h1{
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    border: solid;
+    margin-top: 20px;
+}

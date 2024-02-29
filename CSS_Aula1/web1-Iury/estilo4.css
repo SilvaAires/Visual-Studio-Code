@@ -1,0 +1,36 @@
+#conteudo{
+    float: left;
+    width: 100%;
+}
+
+#cabecalho{
+    float: left;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: green;
+}
+
+#central{
+    float: left;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    background-color: red;
+}
+
+#direita{
+    float: left;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    background-color: blue;
+}
+
+#rodape{
+    float: left;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: pink;
+}

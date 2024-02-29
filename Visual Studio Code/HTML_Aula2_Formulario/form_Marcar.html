@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar</title>
+</head>
+<body>
+    <p>Marcações</p>
+    <p>Qual seu animal de estimação?</p><br/>
+    <form action="inserir.html" method="post">
+        <input type="checkbox" name="animais" value="cachorro" checked="checked">cachorro<br/>
+        <input type="checkbox" name="animais" value="gato">Gato<br/>
+        <input type="checkbox" name="animais" value="passaro">Pássaro<br/>
+        <input type="checkbox" name="animais" value="peixe">Peixe<br/>
+    </form><br/>
+    <form action="inserir.html" method="post">
+        <input type="radio" name="animais" value="cachorro" checked="checked">cachorro<br/>
+        <input type="radio" name="animais" value="gato">Gato<br/>
+        <input type="radio" name="animais" value="passaro">Pássaro<br/>
+        <input type="radio" name="animais" value="peixe">Peixe<br/>
+    </form><br/>
+    <select>
+        <option>Cachorro</option>
+        <option>Gato</option>
+        <option>Passaro</option>
+        <option>Peixe</option>
+    </select><br/>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        Nome:<input type="text" name="nome" size="40" maxlength="100"><br/>
+        Cidade:<input type="text" name="cidade" size="20" maxlength="50"><br/>
+        Estado:<input type="text" name="estado" size="2" value="RS"><br/>
+        País:<input type="text" name="pais" size="20" value="Brasil"><br/>
+    </fieldset>
+</body>
+</html>

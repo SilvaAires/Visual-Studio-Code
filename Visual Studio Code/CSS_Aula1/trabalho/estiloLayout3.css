@@ -1,0 +1,30 @@
+div{
+    float: left;
+}
+#conteudo {
+    width: 100%;
+}
+#cabecalho, #rodape{
+    width: 98%;
+    border: solid;
+    height: 300px; 
+    text-align: center;
+    margin: 2px;
+}
+#central{
+    width: 98%;
+    border: solid;
+    float: left;
+    height: 300px;
+    text-align: center;
+    margin: 2px;
+}
+
+#esquerda{
+    width: 28%;
+    border: solid;
+    right: 100%;
+    float: left;
+    height: 300px; 
+    text-align: center;
+}

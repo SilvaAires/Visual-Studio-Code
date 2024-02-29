@@ -1,0 +1,49 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande",
+        sans-serif;
+}
+
+.menu-nav ul li {
+    display: inline;
+    font-size: 15px;
+    margin: 2px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.logo{
+    float: right;
+    width: 300px;
+    height: 70px;
+}
+
+.menu-arq {
+    float: right;
+    margin-right: 10px;
+    width: 230px;
+}
+
+#txt{
+    float: right;
+    width: 200px;
+}
+
+.menu-final {
+    text-align: center;
+}
+
+#seila{
+    text-align: center;
+    
+}
+
+.menu-final ul li {
+    display: inline;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}

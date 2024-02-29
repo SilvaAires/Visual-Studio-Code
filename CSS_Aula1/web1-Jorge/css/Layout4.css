@@ -1,0 +1,36 @@
+#cabecalho, #rodape{
+    height: 230px;
+    width: 100%;
+    background-color: blue; 
+    color: #000000;
+    margin: 5px ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    text-align: center;
+    clear: both;
+    margin-right: 5px;
+}
+
+#central{
+    float: left;
+    height: 400px;
+    width: 65%;;
+    background-color: rgb(255, 0, 149); 
+    margin: 3px ;
+    margin-bottom: 3px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    text-align: center;
+}
+
+#direita{
+    float: right;
+    height: 400px;
+    width: 32%;;    
+    background-color: rgb(0, 255, 34);  
+    margin: 3px ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    text-align: center;
+}
+

@@ -1,0 +1,79 @@
+/* Reset de margens e preenchimentos para garantir que não haja espaços indesejados */
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o fundo para toda a página */
+body {
+    background-color: #f0f0f0;
+    height: 100vh; /* Define a altura da página como 100% da altura da viewport (tela) */
+    display: flex; /* Use flexbox para centralizar o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estiliza o conteúdo principal */
+#conteudo {
+    display: flex; /* Use flexbox para organizar as colunas */
+    flex-wrap: wrap; /* Quebra as colunas para a próxima linha em telas menores */
+    justify-content: center; /* Espaçamento uniforme entre as colunas */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo para evitar que fique muito largo em telas grandes */
+    width: 100%;
+    margin: 0 auto; /* Centraliza o conteúdo na tela */
+}
+
+/* Estiliza o cabeçalho */
+#cabecalho {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Estiliza a coluna esquerda */
+#esquerda {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    float: left; /* Alinha a esquerda */
+    width: 25%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza o bloco central */
+#central {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    float: left; /* Alinha a esquerda */
+    width: 50%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza a coluna direita */
+#direita {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    float: left; /* Alinha a esquerda */
+    width: 25%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza o rodapé */
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both; /* Limpa as flutuações anteriores */
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    /* Redefine a largura e ajusta o layout para telas menores */
+    #esquerda, #central, #direita {
+        width: 100%;
+        float: none;
+    }
+}

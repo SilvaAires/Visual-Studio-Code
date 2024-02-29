@@ -1,0 +1,189 @@
+/* Estilos para um elemento de classe "botao" */
+.botao {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para um elemento com ID "header" */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para todos os elementos "p" */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Estilos para um elemento com ID "destaque" quando ele está sendo clicado */
+#destaque:active {
+    background-color: yellow;
+}
+--------------------------------------------------------------------------------
+/* Estilos para elementos de classe "destaque" */
+.destaque {
+    background-color: yellow;
+    color: #333;
+    padding: 10px;
+}
+
+/* Estilos para uma lista não ordenada */
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para uma tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para um formulário */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para um cabeçalho */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilos para uma lista ordenada */
+ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+}
+---------------------------------------------------------------------------------------
+/* Estilos para Links */
+.link-estilo {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.link-estilo:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para Tabelas */
+.tabela-estilo {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-estilo th, .tabela-estilo td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para Formulários */
+.formulario-estilo {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formulario-estilo input[type="text"],
+.formulario-estilo input[type="email"],
+.formulario-estilo input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-estilo input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para Cabeçalhos */
+.cabecalho-estilo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilos para Listas Ordenadas */
+.lista-ordenada-estilo {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+}
+-------------------------------------------------------------------------
+/* Estilos de Texto */
+.texto-estilo {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Estilos de Fundo */
+.fundo-estilo {
+    background-color: #f4f4f4;
+    background-image: url('background.jpg');
+}
+
+/* Estilos de Borda */
+.borda-estilo {
+    border: 2px solid #007bff;
+}

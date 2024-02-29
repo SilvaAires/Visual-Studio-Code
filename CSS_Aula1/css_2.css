@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    background-color: yellow;
+    border: solid;
+    border-width: 10px;
+    border-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    height: 140px;
+    letter-spacing: 30px;
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    width: 300px;
+}

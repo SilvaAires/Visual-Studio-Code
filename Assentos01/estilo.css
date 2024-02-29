@@ -1,0 +1,44 @@
+/*.container{
+    margin: 0 auto;
+    border: solid; 
+    position: relative;
+    width: 940px;
+    
+}
+#tr{
+    text-align: center;
+}*/
+div{
+    margin: 0 auto;
+    width: 940px;
+	background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    display: inline;
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    border: 1px solid;
+    width: 100%; /* Faz a tabela ocupar 100% da largura do seu contêiner */
+    border-collapse: collapse; /* Para garantir que as bordas da tabela se unam */
+    margin-top: 20px; /* Ajuste opcional para espaçamento superior */
+}
+
+td {
+	margin: 20px 20px 20px 20px;
+    width: 110px;
+    height: 110px;
+    border: 1px solid;
+    padding: 8px;
+    text-align: center; /* Centraliza o texto nas células */
+    background: url('assento.png') no-repeat top right;;
+    background-position: center; /* Isso centraliza a imagem na célula */
+}
+

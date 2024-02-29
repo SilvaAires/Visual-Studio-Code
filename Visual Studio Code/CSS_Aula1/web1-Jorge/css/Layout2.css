@@ -1,0 +1,24 @@
+#cabecalho, #rodape{
+    height: 230px;
+    width: 100%;
+    background-color: blue; 
+    color: #000000;
+    margin: 5px ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    text-align: center;
+    clear: both;
+    margin-right: 5px;
+}
+
+
+#central{
+    float: left;
+    height: 400px;
+    width: 100%;;
+    background-color: rgb(255, 0, 149); 
+    margin: 5px ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    text-align: center;
+}

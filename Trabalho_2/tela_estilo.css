@@ -1,0 +1,62 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande",
+        sans-serif;
+}
+
+.menu-nav{
+    text-align: left;
+}
+
+.menu-nav ul li {
+    display: inline;
+    font-size: 15px;
+    margin: 2px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.logo{
+    float: right;
+    width: 300px;
+    height: 80px;
+}
+
+.menu-arq {
+    float: right;
+    margin-left: 50px;
+    width: 230px;
+}
+
+p{
+    text-align: justify;
+}
+
+#txt{
+    float: right;
+    width: 200px;
+    margin: 2%;
+}
+
+.menu-final {
+    text-align: center;
+}
+
+#seila{
+    text-align: center;
+    
+}
+
+#com{
+    font-style: italic;
+}
+
+.menu-final ul li {
+    display: inline;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}

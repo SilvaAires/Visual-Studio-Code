@@ -1,0 +1,133 @@
+/* Reset de margens e preenchimentos para garantir que não haja espaços indesejados */
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o fundo para toda a página */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Estiliza o conteúdo principal */
+#conteudo {
+    width: 100%;
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo para evitar que fique muito largo em telas grandes */
+    margin: 0 auto; /* Centraliza o conteúdo na tela */
+}
+
+/* Estiliza o cabeçalho */
+#cabecalho {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estiliza a coluna esquerda */
+#esquerda {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    float: left; /* Alinha a esquerda */
+    width: 25%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza o bloco central */
+#central {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    float: left; /* Alinha a esquerda */
+    width: 50%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza a coluna direita */
+#direita {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    float: left; /* Alinha a esquerda */
+    width: 25%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza o rodapé */
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    clear: both; /* Limpa as flutuações anteriores */
+    padding: 10px;
+}
+
+/* CSS para tornar o design responsivo */
+@media screen and (max-width: 768px) {
+    /* Redefine a largura e ajusta o layout para telas menores */
+    #esquerda, #central, #direita {
+        width: 100%;
+        float: none;
+    }
+}
+
+----------------------------------------------------------------------------
+
+/* Reset de margens e preenchimentos para garantir que não haja espaços indesejados */
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o fundo para toda a página */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Estiliza o conteúdo principal */
+#conteudo {
+    display: flex; /* Use flexbox para organizar as colunas */
+    flex-wrap: wrap; /* Quebra as colunas para a próxima linha em telas menores */
+    justify-content: center; /* Centraliza as colunas horizontalmente */
+    align-items: center; /* Centraliza as colunas verticalmente */
+}
+
+/* Estiliza o cabeçalho */
+#cabecalho {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Estiliza a coluna esquerda */
+#esquerda {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    width: 25%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza o bloco central */
+#central {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 50%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza a coluna direita */
+#direita {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    width: 25%; /* Define a largura, pode ajustar conforme necessário */
+}
+
+/* Estiliza o rodapé */
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
